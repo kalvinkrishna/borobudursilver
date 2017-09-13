@@ -1,0 +1,83 @@
+/*Indonesia English*/
+
+.Indonesia-English .active,#navatas li a.active,.active{
+	color:#EA514A;
+}
+.Indonesia-English{
+	color:#82827E;
+	font-family: Catamaran;
+	font-size: 16pt;
+	position: absolute;
+	left: 2em;
+	top: 5em;
+}
+
+#container-navatas{
+	right: 0px !important;
+}
+@media (max-width: 991px) {
+	.itemparseright,.itemparseleft{
+		padding:0px !important;
+	}	
+	.Indonesia-English{
+		position: static;
+		    padding: 50px;
+	}
+	#container-navatas{
+		position: static;
+		float: none !important;
+		margin: auto;
+
+	}
+
+}
+
+@media (min-width: 768px) and (max-width: 991px){
+
+
+}
+
+/*Logos*/
+#Logos{
+	padding-top: 45px;
+	margin-bottom: 15px;
+}
+
+/*leftcaption rightcaption*/
+.itemparseleft{
+
+	padding: 0px;
+	padding-right: 5px;
+}
+.itemparseright{
+	padding: 0px;
+	padding-left: 5px;
+}
+
+.nav-pills li a{
+	font-family: Catamaran !important;
+}
+
+/*Classic Text*/
+
+.clasic-text,h1.casic-text small.text{
+	font-family: Gabriola !important;	
+	color:#1D1D1B !important;
+}
+
+/*Cart*/
+
+.buttoncart i{
+	border-radius: 50%;
+	border: 2px solid #DD4816;
+	padding: 30px;
+	margin: 30px auto;
+}
+.buttoncart i:hover{
+	border-radius: 50%;
+	border: 2px solid #DD4816;
+	padding: 30px;
+	color: #FFFFFF;
+	background: #DD4816;
+	cursor: pointer;
+}

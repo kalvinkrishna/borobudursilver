@@ -1,0 +1,56 @@
+.relative-parent{
+	position: relative;
+}
+
+.banner{
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	z-index: 0;
+}
+.wrapper{
+	position: relative;
+	z-index: 99;
+	background: #FFFFFF;
+	padding-bottom: 30px;
+}
+.why{
+	margin-top:700px !important;
+}
+
+@media (max-width: 767px) {
+	.banner{
+	
+	top: 100px;
+	left: 0px;
+	
+	}
+	.why{
+		margin-top:150px !important;
+	}
+	#galleries img{
+		margin:15px auto;
+	}
+}
+
+/*tujuh*/
+#tujuh{
+	padding-bottom: 0px !important;
+}
+#container-nav{
+	background-color: #1D1D1B;
+	text-transform: uppercase;
+	margin-bottom: 0px !important;
+	border-radius: 0px !important;
+}
+#container-nav .list-group li{
+	background: none;
+	border: none;
+	color:#FFFFFF;
+}
+#navbawah.nav li a{
+	font-family: Catamaran;
+	font-size: 14pt;
+	color: #FFFFFF;
+	font-weight: 300 !important; 
+}

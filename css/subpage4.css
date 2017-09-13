@@ -1,0 +1,21 @@
+/*bannerin*/
+.bannerin>div>div>div{
+	background:url("../img/bannersilver.png");
+	background-position: 50%;
+	background-size: cover;
+	height: 500px;
+}
+.umbala{
+	padding-left: 15px;
+	padding-right: 15px;
+}
+.badalah{
+	font-size: 14px;
+}
+.icik{
+	position: absolute;
+	left: 42%;
+}
+.doit p{
+	font-family: Catamaran;
+}

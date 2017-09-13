@@ -1,0 +1,450 @@
+@font-face {
+    font-family: Allura;
+    src: url(Allura-Regular.tff);
+}
+@font-face {
+    font-family: MyriadProReg;
+    src: url(MyriadPro-Regular.otf);
+}
+@font-face {
+    font-family: MonotypeCorsiva;
+    src: url(MonotypeCorsiva.ttf);
+}
+@font-face {
+    font-family: Gabriola;
+    src: url(Gabriola.ttf);
+}
+.quote{
+	font-family: Gabriola;
+	font-size: 15pt;
+	font-weight: 600;
+	letter-spacing: 0.08em;
+	margin-top: 4em;
+}
+.owner{
+	font-family: Gabriola;
+	font-size: 15pt;
+	font-weight: 600;
+}
+
+#Logo{
+	margin: 30px auto;
+}
+.relative-parent{
+	position: relative !important;
+}
+	
+.img{
+	width: 100%;
+	margin-bottom: 8px;
+}
+#navatas{
+	text-transform: capitalize;
+	font-size: 12pt;
+}
+#navatas a{
+	color: #424242;
+}
+#container-navatas{
+	background-color: transparent;
+	border-radius: 0px;
+	top: 0px;
+	right: 30px;
+	position: absolute;
+	font-family: Catamaran;
+}
+.arrowdown{
+	vertical-align:sub;
+}
+/*Social Media*/
+.social-media{
+	position: absolute;
+	width: 230px;
+	height:auto;
+	left: 30px;
+	top: 30px;
+	clear: both;
+}
+.social-media>div:nth-child(1){
+	border-radius: 50%;
+	color: blue;
+	height: 50px;
+	background-size: 50px;
+}
+/*Container Bawah Menu*/
+
+#container-nav{
+	background-color: #1D1D1B;
+	text-transform: uppercase;
+	margin-bottom: 0px !important;
+	border-radius: 0px !important;
+
+}
+#navbawah.nav li a{
+	font-family: Catamaran;
+	font-size: 14pt;
+	color: #FFFFFF;
+	font-weight: 300 !important; 
+}
+
+/*caption*/
+.floating{
+	position: absolute;
+	padding-left: 15px;
+	padding-right: 15px;
+	text-transform: capitalize;
+	font-family: Catamaran !important;
+}
+.floating h2{
+	font-family: Catamaran !important;
+}
+
+@media (max-width: 991px) {
+ 	.floating{
+ 		position: absolute;
+ 		margin-right: 15px;
+ 		margin-left: 15px;
+ 	}
+ 	.floating.left-caption{
+ 		left: 0px !important;
+ 	}
+ 	.floating.right-caption{
+ 		right: 0px !important;
+ 	}
+ 	
+}
+
+.caption{
+	position: absolute;
+	font-family: Gabriola;
+	top: 0px;
+	left: 0px;
+	color: #FFFFFF;
+	background: rgba(11,11,12,0.8);
+	font-size: 14pt;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	height: 100%;
+	width: 100%;
+	opacity: 0;
+	padding: 15px;
+	-webkit-transition: all 300ms ease-out;
+		-moz-transition: all 300ms ease-out;
+		-o-transition: all 300ms ease-out;
+		-ms-transition: all 300ms ease-out;	
+		transition: all 300ms ease-out;
+	
+}
+.caption p{
+	font-family: Gabriola;
+	font-size: 1.3em;
+}
+
+.itemcaption:hover .caption{
+	opacity: 1;
+}
+.visit{
+	border: 2px solid #FFFFFF;
+	padding: 20px;
+	margin-bottom: 10px;
+	font-family: MyriadProReg;
+}
+@media (min-width: 768px) and (max-width: 991px){
+	.visit{
+		padding: 10px !important;
+	}
+	.itemcaption{
+		padding: 0px !important;
+	}
+	.caption p{
+		font-family: Gabriola;
+		font-size: 12pt;
+	}
+}
+ @media(min-width: 992px) and (max-width: 1199px){
+ 		.visit{
+ 			padding: 10px;
+ 		}
+ }
+.itemcaption{
+  	padding: 0px;
+  	overflow: hidden;
+  	margin-top: 15px;
+ }
+ #satu.itemcaption{
+ 	padding-right: 5px !important;
+ }
+ #dua.itemcaption{
+ 	padding-left: 5px !important;
+ }
+
+.floating.left-caption{
+	left: 20px;
+	top: 20px;
+	color: #FFFFFF;
+	background-color: rgba(7,7,7,0.4);
+	font-family: Catamaran;
+}
+.floating.right-caption{
+	bottom: 20px;
+	right: 20px;
+	color: #424242 !important;
+	background-color: rgba(251,251,251,0.6);
+	font-family: Catamaran;
+}
+.floating .paragrafcaption{
+	padding: 0px;
+}
+@media (min-width: 768px) and (max-width: 991px) {
+	.floating .paragrafcaption{
+		font-size: 20pt;
+	}
+
+}
+@media (max-width:  991px){
+	.rowitem>div:nth-child(1){
+		padding-right: 0px !important;
+		padding-left: 0px !important;
+	}
+	.rowitem>div:nth-child(2){
+		padding-left: 0px !important;
+		padding-right: 0px !important;
+	}
+}
+@media (max-width: 768px){
+	.floating.left-caption h2{
+	
+		width: 100% !important;
+
+
+	}
+	.floating.right-caption h2{
+		
+		width: 100% !important;
+		
+	}
+}
+.floating.left-caption h2{
+	border-bottom: 1px solid #FFFFFF;
+	width: 85%;
+
+	padding-bottom: 5px;
+}
+.floating.right-caption h2{
+	border-bottom: 1px solid #424242;
+	width: 85%;
+	word-spacing: 0.3em;
+	padding-bottom: 5px;
+}
+/*item*/
+.rowitem{
+	clear: both;
+}
+.rowitem>div:nth-child(1){
+	padding-right: 4px ;
+	padding-left: 10px;
+}
+.rowitem>div:nth-child(2){
+	padding-left: 4px ;
+	padding-right: 10px;
+}
+
+#modalbox{
+	top: 100px;
+	padding: 15px;
+}
+#modalbox ul li{
+	font-family: Catamaran;
+	font-size: 14pt;
+	background: none !important;
+	border: none;
+	text-transform: capitalize;
+}
+#modalbox ul li.list-group-item:hover{
+	cursor: pointer;
+	font-size: 24px
+}
+#modalbox ul li.list-group-item:hover:before{
+	 	  color:black;
+    font-size:24px;
+    content: "\25b6";
+}
+
+/*qualitas*/
+
+#qualitas{
+	font-family: Gabriola;
+	letter-spacing: 0.08em;
+	font-size: 14pt;
+	margin-top: 3em;
+	font-weight: 600;
+}
+#qualitas .container{
+
+	border-bottom: 2px solid #717070;
+}
+#qualitas p{
+	margin-top: 6em;
+}
+
+/*Prestasi*/
+#Prestasi{
+	font-family: MyriadProReg;
+}
+#Borobudur{
+	font-family: MonotypeCorsiva;
+	text-transform: capitalize;
+}
+
+#Borobudur span{
+	font-size: 12pt !important;
+	font-family:Gabriola;
+}
+.first{
+	
+	color: #E6294B;
+}
+.idiom{
+	border-bottom: 2px solid #000000;
+	margin-bottom: 15px;
+}
+/*silverschoolparagraf*/
+.section-Silver-school{
+	position: absolute;
+	top: 30px;
+	left: 20%;
+	background-color: rgba(11,11,12,0.5);	
+	color: #FFFFFF;
+	padding-bottom: 100px;
+}
+@media (min-width: 1200px){
+  .section-Silver-school{
+  	top: 100px;
+  }
+}
+.silverschoolparagraf{
+	letter-spacing: 0.05em;
+	padding: 15px;
+	vertical-align: 3px;
+	font-size: 14pt;
+}
+@media (min-width: 768px) and (max-width: 991px) {
+  .silverschoolparagraf{
+  	background: url("../img/school.png");
+  	background-size: cover;
+  	background-repeat: no-repeat;
+  	color: #FFFFFF;
+  }
+}
+@media (max-width: 767px) {
+ .silverschoolparagraf{
+  	background: url("../img/school.png");
+  	background-size: cover;
+  	background-repeat: no-repeat;
+  	color: #FFFFFF;
+  }
+}
+.link-school{
+	padding: 10px;
+	border: 3px solid #FFFFFF;
+}
+
+/*informasi*/
+
+.informasi{
+	font-family: Catamaran;
+}
+.dapatkan{
+	font-size: 12pt;
+}
+
+/*layer  <li style="display:none;">kalvinkrishna@gmail.com</li>*/
+
+.layer{
+	position: absolute;
+	font-family: Gabriola;
+	z-index: 999;
+	font-size: 2em;
+	top: 0px;
+	left: 0px;
+	color: #FFFFFF;
+	overflow-y: hidden;
+}
+.layer>div{
+		background-color: rgba(11,11,12,0.5);
+		padding-top: 25px;
+		padding-bottom: 20px;
+		
+}
+.layer>div>div>div{
+	padding: 10px;
+	border: 2px solid #FFFFFF;
+	
+	float:none !important;
+	display: block;
+	margin: 10px auto;
+}
+/*lima*/
+#lima img{
+	width: 100% !important;
+}
+@media (min-width: 768px) and (max-width: 991px) {
+ #lima img {
+    height: auto !important;
+    margin: 15px auto;
+  }
+}
+
+#kunjungi{
+	font-size: 14pt;
+	font-family: Catamaran;
+}
+#name{
+	outline: 0;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    width: 100%;
+    background: #fff;
+    margin-bottom: 4%;
+    border: 1px solid #ccc;
+    padding: 5%;
+    color: #555;
+    font-family: Catamaran;
+    font-size: 14pt;
+}
+#submit{
+	box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    width: 100%;
+    padding: 3%;
+    background: #FFFFFF;
+    border: 2px solid #3A3A3A;
+    color: #CCC;
+    font-size: 14pt;
+    font-family: Catamaran;
+    margin-bottom: 30px;
+}
+
+/*galerye*/
+
+.galerye>div{
+	padding-left: 5px !important;
+	padding-right: 5px !important;
+}
+
+
+.iconic{
+	background: url("../img/bangsat.png");
+	background-position: 50%;
+	background-size: cover;
+	width: 20px;
+	height: 20px;
+	display:inline-block;
+	vertical-align: bottom;
+}
+
+
+
+      
